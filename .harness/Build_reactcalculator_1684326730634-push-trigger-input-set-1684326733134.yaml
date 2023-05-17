@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1684326730634-push-trigger-input-set
+  identifier: Build_reactcalculator_1684326730634pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ProjectKozyolb
+  pipeline:
+    identifier: Build_reactcalculator_1684326730634
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
