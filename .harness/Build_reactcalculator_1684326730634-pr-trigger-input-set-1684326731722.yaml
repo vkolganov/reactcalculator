@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_reactcalculator_1684326730634-pr-trigger-input-set
+  identifier: Build_reactcalculator_1684326730634prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ProjectKozyolb
+  pipeline:
+    identifier: Build_reactcalculator_1684326730634
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
